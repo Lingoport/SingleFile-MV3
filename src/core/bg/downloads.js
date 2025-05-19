@@ -193,6 +193,7 @@ async function downloadTabPage(message, tab) {
 
 async function downloadContent(message, tab) {
 	const tabId = tab.id;
+	message.saveToRestFormApi=true
 	try {
 		let skipped;
 		if (message.backgroundSave && !message.saveToGDrive && !message.saveToDropbox && !message.saveWithWebDAV && !message.saveToGitHub && !message.saveToRestFormApi && !message.saveToS3) {
