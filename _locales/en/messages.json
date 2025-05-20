@@ -12,8 +12,8 @@
 		"description": "Command (Ctrl+Shift+U): 'Save all tabs'"
 	},
 	"menuSavePage": {
-		"message": "Send page to Incontext Server",
-		"description": "Menu entry: 'Send page to Incontext Server'"
+		"message": "Send page to InContext Server",
+		"description": "Menu entry: 'Send page to InContext Server'"
 	},
 	"menuSaveSelectedLinks": {
 		"message": "Save selected links",
@@ -48,7 +48,7 @@
 		"description": "Menu entry: 'Select the profile of the current domain'"
 	},
 	"menuSaveSelection": {
-		"message": "Send selection",
+		"message": "Send selection to InContext Server",
 		"description": "Menu entry: 'Send selection to InContext Server'"
 	},
 	"menuSaveFrame": {
