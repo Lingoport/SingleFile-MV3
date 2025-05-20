@@ -12,8 +12,8 @@
 		"description": "Command (Ctrl+Shift+U): 'Save all tabs'"
 	},
 	"menuSavePage": {
-		"message": "Save page with SingleFile",
-		"description": "Menu entry: 'Save page with SingleFile'"
+		"message": "Send page to Incontext Server",
+		"description": "Menu entry: 'Send page to Incontext Server'"
 	},
 	"menuSaveSelectedLinks": {
 		"message": "Save selected links",
@@ -32,8 +32,8 @@
 		"description": "Menu entry: 'Save with profile'"
 	},
 	"menuViewPendingSaves": {
-		"message": "View pending saves...",
-		"description": "Menu entry: 'View pending saves...'"
+		"message": "View pending...",
+		"description": "Menu entry: 'View pending...'"
 	},
 	"menuSelectProfile": {
 		"message": "Select the default profile",
@@ -48,8 +48,8 @@
 		"description": "Menu entry: 'Select the profile of the current domain'"
 	},
 	"menuSaveSelection": {
-		"message": "Save selection",
-		"description": "Menu entry: 'Save selection'"
+		"message": "Send selection",
+		"description": "Menu entry: 'Send selection to InContext Server'"
 	},
 	"menuSaveFrame": {
 		"message": "Save frame",
@@ -57,7 +57,7 @@
 	},
 	"menuSaveTabs": {
 		"message": "Save tabs",
-		"description": "Menu entry (SingleFile button only): 'Save tabs'"
+		"description": "Menu entry (IncontextCapture button only): 'Save tabs'"
 	},
 	"menuSaveSelectedTabs": {
 		"message": "Save selected tabs",
@@ -96,20 +96,20 @@
 		"description": "Menu entry: 'Auto-save' > Auto-save all tabs'"
 	},
 	"buttonDefaultTooltip": {
-		"message": "Save page with SingleFile",
-		"description": "Button title: 'Save page with SingleFile'"
+		"message": "Save page with IncontextCapture",
+		"description": "Button title: 'Save page with IncontextCapture'"
 	},
 	"buttonBlockedBadge": {
 		"message": "🚫",
 		"description": "Button badge when the page is blocked: '🚫'"
 	},
 	"buttonBlockedTooltip": {
-		"message": "This page cannot be saved with SingleFile",
-		"description": "Button title: 'This page cannot be saved with SingleFile'"
+		"message": "This page cannot be saved with IncontextCapture",
+		"description": "Button title: 'This page cannot be saved with IncontextCapture'"
 	},
 	"buttonInitializingTooltip": {
-		"message": "Initializing SingleFile",
-		"description": "Button title during initialization: 'Initializing SingleFile (x/2)'"
+		"message": "Initializing IncontextCapture",
+		"description": "Button title during initialization: 'Initializing IncontextCapture (x/2)'"
 	},
 	"buttonInitializingBadge": {
 		"message": "•••",
@@ -532,8 +532,8 @@
 		"description": "Options page label: 'period (s)'"
 	},
 	"optionAutoSaveExternalSave": {
-		"message": "save the page with SingleFile Companion",
-		"description": "Options page label: 'save the page with SingleFile Companion'"
+		"message": "save the page with IncontextCapture Companion",
+		"description": "Options page label: 'save the page with IncontextCapture Companion'"
 	},
 	"optionsEditorSubTitle": {
 		"message": "Annotation editor",
@@ -548,8 +548,8 @@
 		"description": "Options page label: 'open saved pages in a new tab'"
 	},
 	"optionAutoOpenEditor": {
-		"message": "open pages saved with SingleFile in the annotation editor",
-		"description": "Options page label: 'open pages saved with SingleFile in the annotation editor'"
+		"message": "open pages saved with IncontextCapture in the annotation editor",
+		"description": "Options page label: 'open pages saved with IncontextCapture in the annotation editor'"
 	},
 	"optionDefaultEditorMode": {
 		"message": "default mode",
@@ -648,7 +648,7 @@
 		"description": "Options page label: 'add proof of existence'"
 	},
 	"optionsAddProofConfirm": {
-		"message": "Confirm you allow SingleFile to send to the Woleet API a SHA256 hash of each page you are going to save. You can find more information about this feature in the help page or by clicking on the question mark next to the option.",
+		"message": "Confirm you allow IncontextCapture to send to the Woleet API a SHA256 hash of each page you are going to save. You can find more information about this feature in the help page or by clicking on the question mark next to the option.",
 		"description": "Popup text displayed wen enabling the option 'add proof of existence'"
 	},
 	"optionWoleetKey": {
@@ -724,8 +724,8 @@
 		"description": "Options page label: 'password'"
 	},
 	"optionSaveWithCompanion": {
-		"message": "save with SingleFile Companion",
-		"description": "Options page label: 'save with SingleFile Companion'"
+		"message": "save with IncontextCapture Companion",
+		"description": "Options page label: 'save with IncontextCapture Companion'"
 	},
 	"optionSaveCreatedBookmarks": {
 		"message": "save the page of a newly created bookmark",
@@ -808,8 +808,8 @@
 		"description": "Width of the log panel in pixels, it should be adjusted for the longest label beginning with 'log' (e.g. 'logPanelDeferredImages')"
 	},
 	"topPanelError": {
-		"message": "SingleFile error: ",
-		"description": "Label 'SingleFile error: ' in the top panel when displaying an error message"
+		"message": "IncontextCapture error: ",
+		"description": "Label 'IncontextCapture error: ' in the top panel when displaying an error message"
 	},
 	"topPanelEmbeddedImageButton": {
 		"message": "Open image...",

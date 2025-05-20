@@ -1,8 +1,8 @@
 {
-	"name": "single-file-mv3",
-	"version": "1.0.0",
-	"description": "SingleFile",
-	"author": "Gildas Lormeau",
+	"name": "incontext-capture",
+	"version": "2.1.1",
+	"description": "InContext Capture",
+	"author": "Gildas Lormeau, Lingoport",
 	"license": "AGPL-3.0-or-later",
 	"scripts": {
 		"dev": "./build-dev.sh",

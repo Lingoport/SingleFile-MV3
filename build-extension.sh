@@ -23,15 +23,15 @@ npm update
 
 ./build.sh
 
-rm singlefile-extension-chromium.zip singlefile-extension-edge.zip
+rm incontextcapture-extension-chromium.zip incontextcapture-extension-edge.zip
 
-zip -r singlefile-extension-chromium.zip manifest.json lib _locales src
+zip -r incontextcapture-extension-chromium.zip manifest.json lib _locales src
 
 cp src/core/bg/config.js config.copy.js
 cp manifest.json manifest.copy.json
 jq 'del(.oauth2)' manifest.json > manifest.tmp.json && mv manifest.tmp.json manifest.json
 sed -i "" 's/forceWebAuthFlow: false/forceWebAuthFlow: true/g' src/core/bg/config.js
 sed -i "" 's/image\/avif,//g' src/core/bg/config.js
-zip -r singlefile-extension-edge.zip manifest.json lib _locales src
+zip -r incontextcapture-extension-edge.zip manifest.json lib _locales src
 mv config.copy.js src/core/bg/config.js
 mv manifest.copy.json manifest.json

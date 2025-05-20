@@ -1,7 +1,7 @@
 {
-	"name": "SingleFile",
-	"author": "Gildas Lormeau",
-	"homepage_url": "https://www.getsinglefile.com",
+	"name": "Lingoport InContext Capture",
+	"author": "Gildas Lormeau, Lingoport",
+	"homepage_url": "https://lingoport.com/",
 	"icons": {
 		"16": "src/ui/resources/icon_16.png",
 		"32": "src/ui/resources/icon_32.png",
@@ -9,7 +9,7 @@
 		"64": "src/ui/resources/icon_64.png",
 		"128": "src/ui/resources/icon_128.png"
 	},
-	"version": "1.22.81",
+	"version": "2.1.1",
 	"description": "__MSG_extensionDescription__",
 	"content_scripts": [
 		{
