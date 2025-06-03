@@ -1,6 +1,6 @@
 {
 	"extensionDescription": {
-		"message": "Save a complete page into a single HTML file",
+		"message": "Send a complete/part page to Lingoport InContext Server",
 		"description": "Description of the extension."
 	},
 	"commandSaveSelectedTabs": {
